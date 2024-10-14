@@ -1,0 +1,26 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.grid {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  background-color: white;
+}
+
+.grid-cell.filled {
+  background-color: lightblue;
+}
+
